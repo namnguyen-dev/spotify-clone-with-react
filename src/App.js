@@ -10,7 +10,7 @@ const spotify = new SpotifyWebApi();
 
 function App() {
   const [{ user, token }, dispatch] = useDataLayerValue();
-
+console.log(token);
   useEffect(() => {
     const hash = getTokenFromUrl();
     window.location.hash = '';
