@@ -10,13 +10,13 @@
   color: white;
 }
 .sidebarOption__icon {
-    padding: 0 10px
+  padding: 0 10px;
 }
 
-.sidebarOption__title {
-    padding:5px;
-    font-size:12px;
-    margin-left:10px;
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
 }
 
 .sidebarOption > p {
